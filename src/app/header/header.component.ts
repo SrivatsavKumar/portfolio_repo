@@ -11,4 +11,11 @@ export class HeaderComponent{
     {
         this.selectedFeature.emit(feature);
     }
+
+    myFuncnavbar(){
+        document.getElementById("navbarNavDropdown").classList.remove("collapse")
+
+        setTimeout(function() {document.getElementById("navbarNavDropdown").classList.add("collapse")},3000);
+
+    }
 }
