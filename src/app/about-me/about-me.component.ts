@@ -12,4 +12,8 @@ export class AboutMeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  certificationsFunc(){
+    document.getElementById("certificationsTable").classList.remove("d-none");
+  }
+
 }

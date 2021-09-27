@@ -10,6 +10,10 @@ export class ProjectsComponent implements OnInit {
   show2 :boolean = false;
   show3 :boolean = false;
   show4 :boolean = false;
+  show5 :boolean = false;
+  show6 :boolean = false;
+  show7 :boolean = false;
+  show8 :boolean = false;
   constructor() { }
 
   ngOnInit(): void {
@@ -52,6 +56,46 @@ export class ProjectsComponent implements OnInit {
     if(this.show4 == false)
     {
       document.getElementById("collapseProject4").classList.add("collapse");
+    }
+  }
+
+  viewContent5(){
+    document.getElementById("collapseProject5").classList.remove("collapse");
+    this.show5 = !this.show5;
+
+    if(this.show5 == false)
+    {
+      document.getElementById("collapseProject5").classList.add("collapse");
+    }
+  }
+
+  viewContent6(){
+    document.getElementById("collapseProject6").classList.remove("collapse");
+    this.show6 = !this.show6;
+
+    if(this.show6 == false)
+    {
+      document.getElementById("collapseProject6").classList.add("collapse");
+    }
+  }
+
+  viewContent7(){
+    document.getElementById("collapseProject7").classList.remove("collapse");
+    this.show7 = !this.show7;
+
+    if(this.show7 == false)
+    {
+      document.getElementById("collapseProject7").classList.add("collapse");
+    }
+  }
+
+  viewContent8(){
+    document.getElementById("collapseProject8").classList.remove("collapse");
+    this.show8 = !this.show8;
+
+    if(this.show8 == false)
+    {
+      document.getElementById("collapseProject8").classList.add("collapse");
     }
   }
 }

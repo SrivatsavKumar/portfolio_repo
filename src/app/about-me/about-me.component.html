@@ -13,7 +13,8 @@
             <div class="col-xs-12">
                 <p>Graduate Student from <b style="color:#8C1D40;">Arizona State University</b> with Master's degree in 
                     Computer Science Department having coursework of Distributed Database Systems,
-                    Foundation of Algorithms, Statistical Machine Learning. I have experience in 
+                    Foundation of Algorithms, Statistical Machine Learning, Artificial Intelligence,
+                    Info Assurance and Security, Data Mining. I have experience in 
                     Web Application development using .NET Framework, django Framework. Seeking
                     Intern oppurtunities as Software Development Engineer/ Software Developer/ Full Stack Developer.</p>
             </div>
@@ -23,15 +24,16 @@
             <div class="col-xs-12">
                 <h5>Work Experience</h5>
                 <hr>
-                <u><h6>Research Aide at Kyl Center for Water Policy, ASU</h6></u>
-                <b><span style="text-align: right;">May 2021 - Present</span></b>
+                <u><h6><b>Research Aide at Kyl Center for Water Policy, ASU</b></h6></u>
+                <span style="text-align: right;">May 2021 - Present</span>
                 <p>Currently working as Software Developer for AZ Community Water Source project, where my responsibilities include but 
                    not limited to developing web applications using DJANGO FRAMEWORK, PYTHON for backend and POSTGRESQL for 
-                   database management.
+                   database management. Developed python code to convert the table data present in PDF file to EXCEL file automatically
+                   with ~80% data transfer accuracy. Developed website has been deployed on AWS-EC2 instance. 
                 </p>
                 <hr>
-                <u><h6>Trainee Software Engineer at Preludesys India Ltd</h6></u>
-                <b><span style="text-align: right;">Jun 2020 - September 2020</span></b>
+                <u><h6><b>Trainee Software Engineer at Preludesys India Ltd</b></h6></u>
+                <span style="text-align: right;">Jun 2020 - September 2020</span>
                 <p>In the employment period, I was responsible for handling the organization’s internally maintained project on VB.NET. 
                     My daily duties include solving the priority tasks that are raised by the finance team. 
                     Daily requests include, Updating the records from the backend, modifying the data of the reports from the backend, 
@@ -41,8 +43,8 @@
                     reports that are required for the organization. I was also responsible for another project; in this project I got a 
                     chance to work on reports issues that has been raised from the client.</p>
                 <hr>
-                <u><h6>Software Engineer Intern at Preludesys India Ltd</h6></u>
-                <b><span style="text-align: right;">Jan 2020 - April 2020</span></b>
+                <u><h6><b>Software Engineer Intern at Preludesys India Ltd</b></h6></u>
+                <span style="text-align: right;">Jan 2020 - April 2020</span>
                 <p>Worked in software development team as Microsoft full stack developer role as an intern. 
                    Learnt Microsoft.NET framework using C# language. Also learnt Software Development methodologies like Agile Scrum and Waterfall model.
                    Developed two demo projects as part of the training, one is based on Blood Donation,
@@ -54,9 +56,70 @@
         <br>
         <div class="row">
             <div class="col-sm-12">
-                <button type="button" class="btn btn-success"> <b>Certifications</b></button>
+                <button type="button" class="btn btn-success" (click)="certificationsFunc()"> <b>Certifications</b></button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-7 d-none" id="certificationsTable">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th>SNo</th>
+                            <th>Certification</th>
+                            <th>Certificate Number</th>
+                            <th>Organization</th>
+                            <th>Expiry</th>
+                            <th>Comments</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="color: gold;">
+                            <td>1</td>
+                            <td>Introduction to Artificial Intelligence</td>
+                            <td>SXNSTU8YSEV9</td>
+                            <td>Coursera</td>
+                            <td>No Expiry</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr style="color: gold;">
+                            <td>2</td>
+                            <td>Introduction to Big Data</td>
+                            <td>XG6U7TVLAPBN</td>
+                            <td>Coursera</td>
+                            <td>No Expiry</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr style="color: gold;">
+                            <td>3</td>
+                            <td>Comprehensive SQL Bootcamp (PostgreSql)</td>
+                            <td>UC-2b5726b8-27fe-494b-b018-4577fabc5400</td>
+                            <td>Udemy</td>
+                            <td>No Expiry</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr style="color: gold;">
+                            <td>4</td>
+                            <td>Angular - The Complete Guide (2021 Edition)</td>
+                            <td>-</td>
+                            <td>Udemy</td>
+                            <td>No Expiry</td>
+                            <td>In Progress</td>
+                        </tr>
+                        <tr style="color: gold;">
+                            <td>5</td>
+                            <td>Building App with ASP.NET Core and Angular</td>
+                            <td>-</td>
+                            <td>Udemy</td>
+                            <td>No Expiry</td>
+                            <td>In Progress</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
+    <br>
 </body>
 </html>
